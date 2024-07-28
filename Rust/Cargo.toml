@@ -1,0 +1,11 @@
+[package]
+name = 'sca_test'
+version = '0.1.0'
+edition = '2018'
+
+[dependencies]
+regex = '1.4.3'
+serde = { version = '1.0.126', features = ['derive'] }
+reqwest = { version = '0.11', features = ['json'] }
+log = '0.4.14'
+env_logger = '0.9.0'
